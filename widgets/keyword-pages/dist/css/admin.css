@@ -1,0 +1,127 @@
+.infility-global-keyword-pages .tabs .tab-titles {
+  display: flex;
+}
+.infility-global-keyword-pages .tabs .tab {
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background-color: #eee;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 10px 10px 0 0;
+}
+.infility-global-keyword-pages .tabs .tab.active {
+  background-color: #fff;
+}
+.infility-global-keyword-pages .tabs .panel {
+  display: none;
+  border: 1px solid #ccc;
+  padding: 20px 10px 10px 10px;
+}
+.infility-global-keyword-pages .tabs .panel.show {
+  display: block;
+}
+.infility-global-keyword-pages .keyword-editor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: #cccccc7f;
+  display: none;
+}
+.infility-global-keyword-pages .keyword-editor-wrap {
+  position: fixed;
+  width: 750px;
+  top: 32px;
+  bottom: 0;
+  right: -800px;
+  box-sizing: border-box;
+  background-color: #fff;
+  transition: right 0.3s ease-in-out;
+  overflow-y: scroll;
+  padding: 20px;
+}
+.infility-global-keyword-pages .keyword-editor-wrap.show {
+  right: 0;
+}
+.infility-global-keyword-pages .keyword-editor.show {
+  display: block;
+}
+.infility-global-keyword-pages .keyword-editor .loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  background-color: #ffffff7f;
+  z-index: 20;
+}
+.infility-global-keyword-pages .keyword-editor .loading.show {
+  display: block;
+}
+.infility-global-keyword-pages .keyword-editor .span-loading {
+  font-size: 12px;
+  font-weight: normal;
+  color: #ffa500;
+}
+.infility-global-keyword-pages .keyword-editor .label {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 0;
+  height: 28px;
+  line-height: 28px;
+}
+.infility-global-keyword-pages .keyword-editor .slug {
+  font-size: 14px;
+  font-weight: normal;
+}
+.infility-global-keyword-pages .keyword-editor .btn-wrap {
+  padding: 20px 0;
+}
+.infility-global-keyword-pages .panel .btn-wrap {
+  padding-bottom: 20px;
+}
+.infility-global-keyword-pages .panel .q1,
+.infility-global-keyword-pages .panel .q2,
+.infility-global-keyword-pages .panel .q3 {
+  font-weight: bold;
+}
+.infility-global-keyword-pages .panel .a1,
+.infility-global-keyword-pages .panel .a2,
+.infility-global-keyword-pages .panel .a3 {
+  margin-bottom: 10px;
+}
+.infility-global-keyword-pages .panel tr.main-keyword {
+  background-color: #cef;
+}
+.infility-global-keyword-pages .panel-whyus table {
+  width: 100%;
+}
+.infility-global-keyword-pages .panel-import .panel-wrap {
+  display: flex;
+}
+.infility-global-keyword-pages .panel-import .panel-cont {
+  flex: 1;
+  padding: 10px;
+}
+.infility-global-keyword-pages .panel-import .panel-cont:last-child {
+  max-height: 491px;
+  overflow-y: scroll;
+}
+.infility-global-keyword-pages .panel-import td {
+  padding-right: 10px;
+}
+.infility-global-keyword-pages .panel-import tr.info {
+  color: blue;
+}
+.infility-global-keyword-pages .panel-import tr.debug {
+  color: gray;
+}
+.infility-global-keyword-pages .panel-import tr.error {
+  color: red;
+}

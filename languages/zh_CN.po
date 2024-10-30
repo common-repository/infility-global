@@ -1,0 +1,245 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Infility Global\n"
+"POT-Creation-Date: 2022-06-23 13:55+0800\n"
+"PO-Revision-Date: 2022-06-23 17:33+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: infility_global.php\n"
+"X-Poedit-SearchPath-1: widgets/contact-form-plugins/contact-form-plugins."
+"php\n"
+"X-Poedit-SearchPath-2: widgets/elementor-tab/includes/widgets/"
+"elementor_tab_html.php\n"
+
+#: infility_global.php:84 infility_global.php:85
+msgid "Public Settings"
+msgstr "公共设置"
+
+#: infility_global.php:110
+#: widgets/contact-form-plugins/contact-form-plugins.php:73
+msgid "Settings saved success!"
+msgstr "设置保存成功!"
+
+#: infility_global.php:116
+msgid "Infility Public Plugin Settings"
+msgstr "Infility公共插件设置"
+
+#: infility_global.php:129
+#: widgets/contact-form-plugins/contact-form-plugins.php:124
+msgid "Save"
+msgstr "保存"
+
+#: widgets/contact-form-plugins/contact-form-plugins.php:23
+#: widgets/contact-form-plugins/contact-form-plugins.php:24
+msgid "CF7 Setting"
+msgstr "CF7 设置"
+
+#: widgets/contact-form-plugins/contact-form-plugins.php:33
+#: widgets/contact-form-plugins/contact-form-plugins.php:34
+msgid "CF7 Guide"
+msgstr "CF7 教程"
+
+#: widgets/contact-form-plugins/contact-form-plugins.php:52
+msgid "Form not selected"
+msgstr "未选中表单"
+
+#: widgets/contact-form-plugins/contact-form-plugins.php:86
+msgid "CF7 - GA Setting"
+msgstr "CF7 GA设置"
+
+#: widgets/contact-form-plugins/contact-form-plugins.php:90
+msgid "Select Form"
+msgstr "选择表单"
+
+#: widgets/contact-form-plugins/contact-form-plugins.php:112
+msgid "Redirect link"
+msgstr "重定向链接"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:18
+msgid "Tab"
+msgstr "选项卡"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:103
+msgid ""
+"I am tab content. Click edit button to change this text. Lorem ipsum dolor "
+"sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec "
+"ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:144
+#, php-format
+msgid ""
+"Check list of supported embeds <a href=\"%1$s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:200
+msgid "Choose Template"
+msgstr "选择模板"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:222
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:240
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:254
+msgid "Icon"
+msgstr "图标"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:229
+msgid "Icon Type"
+msgstr "图标类型"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:236
+msgid "None"
+msgstr "无"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:244
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:271
+msgid "Image"
+msgstr "图片"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:290
+msgid "Image Size"
+msgstr "图片大小"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:307
+msgid "List Items"
+msgstr "选项卡标题"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:312
+msgid "Tab #1"
+msgstr ""
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:313
+msgid ""
+"I am tab 1 content. Click edit button to change this text. Lorem ipsum dolor "
+"sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec "
+"ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:316
+msgid "Tab #2"
+msgstr ""
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:317
+msgid ""
+"I am tab 2 content. Click edit button to change this text. Lorem ipsum dolor "
+"sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec "
+"ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:320
+msgid "Tab #3"
+msgstr ""
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:321
+msgid ""
+"I am tab 3 content. Click edit button to change this text. Lorem ipsum dolor "
+"sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec "
+"ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:364
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:932
+msgid "Yes"
+msgstr "是"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:365
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:936
+msgid "No"
+msgstr "否"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:384
+msgid "Tabs"
+msgstr "选项卡"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:654
+msgid "Title"
+msgstr "选项卡文字"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:662
+msgid "Icon Position"
+msgstr "图标位置"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:665
+msgid "Top"
+msgstr "上"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:666
+msgid "Bottom"
+msgstr "下"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:667
+msgid "Left"
+msgstr "左"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:668
+msgid "Right"
+msgstr "右"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:676
+msgid "Icon Size"
+msgstr "图标大小"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:697
+msgid "Icon Image Width"
+msgstr ""
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:719
+msgid "Border Radius"
+msgstr "边框圆角"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:736
+msgid "Padding"
+msgstr "内边距"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:756
+msgid "Title Typography"
+msgstr "文字样式模板"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:766
+msgid "Normal"
+msgstr "正常"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:772
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:845
+msgid "Icon Color"
+msgstr "图标颜色"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:784
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:859
+msgid "Title Color"
+msgstr "标题颜色"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:795
+msgid "Title Background Color"
+msgstr "标题背景颜色"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:809
+msgid "Title Border Color"
+msgstr "标题边框颜色"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:839
+msgid "Active"
+msgstr "选中"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:871
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:886
+msgid "Border Color"
+msgstr "边框颜色"
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:905
+msgid "Animation Color"
+msgstr ""
+
+#: widgets/elementor-tab/includes/widgets/elementor_tab_html.php:928
+msgid "Hover Effect"
+msgstr "经过效果"

@@ -1,0 +1,16 @@
+/*
+elementor_tab
+@author CJJ
+ */
+
+.trans{transition:all 0.4s ease-out-moz-transition:all 0.4s ease-out;-ms-transition:all 0.4s ease-out;-o-transition:all 0.4s ease-out;-webkit-transition:all 0.4s ease-out;}
+.clean{zoom:1;}
+.clean:after,.clean:before{content:''; display:table;}
+.clean:after{clear:both;}
+
+
+#infility_position{min-height: 45px;clear: both;display: flex;align-items: center;flex-wrap: wrap;}
+#infility_position.right{justify-content: flex-end;}
+#infility_position.center{justify-content: center;}
+#infility_position>*{float: left;margin: 0 5px;}
+#infility_position>.home{margin-left: 0;}

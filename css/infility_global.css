@@ -1,0 +1,25 @@
+.wrap.w_1200 { width: 1200px; margin: 0 auto; }
+.wrap.w_750 { width: 750px; margin: 0 auto; }
+.wrap h1.wp-heading-inline { margin-bottom: 8px; }
+
+/*auto_alert*/
+.auto_alert { position: fixed; left: 0; top: 25%; color: #fff; background: rgba(0, 0, 0, 0.5); border: 1px #ccc solid; opacity: 0.95; filter: alpha(opacity=95); width: auto; max-width: 450px; z-index: 20000000; border-radius: 5px; overflow: hidden; box-shadow: 0 2px 10px rgba(0, 0, 0, .25); transition: top 0.25s; }
+.auto_alert .win_tips { position: relative; padding: 10px 40px 10px 80px; line-height: 30px; margin-bottom: 1px; font-size: 16px; }
+.auto_alert .win_tips .icon_status { top: 0px; left: 30px; width: 30px; height: 30px; bottom: 0; margin: auto; overflow: hidden; background: url(../images/icon_success.png) no-repeat; position: absolute; display: block; }
+.auto_alert .win_tips .icon_status.await { background: url(../images/icon_win_warning.png) no-repeat center center; background-size: 100%; }
+.auto_alert .win_tips .icon_status.fail { background-image: url(../images/icon_fail.png); }
+.auto_alert .win_tips .icon_status.loading { background: url(../images/loading.gif) no-repeat center center/100%; }
+
+/*win_alert*/
+.win_alert { position: fixed; left: 50%; top: 30%; background: #fff; border: 1px #ccc solid; opacity: 0.95; filter: alpha(opacity=95); width: 400px; z-index: 20000000; border-radius: 8px; padding-top: 7px; overflow: hidden; box-shadow: 0 2px 10px rgba(0, 0, 0, .25); transform: translate(-50%, 0); }
+.win_alert .win_close { height: 14px; padding: 5px 0; }
+.win_alert .win_close .close { float: right; padding: 0; line-height: 100%; font-size: 20px; margin-right: 17px; cursor: pointer; background: none; border: 0; color: #888; }
+.win_alert .win_close .close:hover { color: #aaa; }
+.win_alert .win_tips { padding: 67px 30px 30px 30px; background: url(../images/win_warning.jpg) no-repeat center 9px; line-height: 23px; margin-bottom: 1px; text-align: center; }
+.win_alert .win_btns { display: flex; align-items: center; justify-content: center; padding-bottom: 30px; }
+.win_alert .win_btns .btn { height: 45px; line-height: 45px; text-align: center; cursor: pointer; margin: 0 6px; font-size: 12px; border-radius: 5px; width: 127px; border: 0 }
+.win_alert .win_btns .btn_sure { background: #2271b1; color: #fff; }
+.win_alert .win_btns .btn_cancel { background: #eaf1f6; color: #2271b1; }
+#powey_by { display: inline-block; color: inherit; }
+#powey_by a { color: inherit; }
+#powey_by.hide { opacity: 0; position: fixed; right: 0; bottom: 0; pointer-events: none; }

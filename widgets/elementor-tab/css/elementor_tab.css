@@ -1,0 +1,57 @@
+/*
+elementor_tab
+@author CJJ
+ */
+
+.trans{transition:all 0.4s ease-out-moz-transition:all 0.4s ease-out;-ms-transition:all 0.4s ease-out;-o-transition:all 0.4s ease-out;-webkit-transition:all 0.4s ease-out;}
+.clean{zoom:1;}
+.clean:after,.clean:before{content:''; display:table;}
+.clean:after{clear:both;}
+
+.infility_tab{overflow: hidden;}
+.infility_tab .infility_tab_title{display: flex;flex-wrap: wrap;}
+.infility_tab .infility_tab_title .title_items{cursor: pointer;display: flex;}
+.infility_tab .infility_tab_title .title_items.icon_right{flex-direction: row-reverse;}
+.infility_tab .infility_tab_title .title_items.icon_right,
+.infility_tab .infility_tab_title .title_items.icon_left {align-items: center;}
+.infility_tab .infility_tab_title .title_items .pp-icon-img,
+.infility_tab .infility_tab_title .title_items .pp-icon{text-align: center;}
+.infility_tab .infility_tab_title .title_items.icon_left .pp-icon-img,
+.infility_tab .infility_tab_title .title_items.icon_left .pp-icon{margin-right: 3px;}
+.infility_tab .infility_tab_title .title_items.icon_right .pp-icon-img,
+.infility_tab .infility_tab_title .title_items.icon_right .pp-icon{margin-left: 3px;}
+.infility_tab .infility_tab_title .title_items .pp-icon-img{display: flex;}
+.infility_tab .infility_tab_title .title_items .pp-icon i{display: inline-block;}
+/*.infility_tab .infility_tab_title .title_items .pp-advanced-tabs-icon-bottom,
+.infility_tab .infility_tab_title .title_items .pp-advanced-tabs-icon-top{display: block;}*/
+
+/*上下结构*/
+.infility_tab.at-vertical{display: flex;}
+.infility_tab.at-vertical .infility_tab_content.effect_slide{overflow: hidden;}
+.infility_tab.at-vertical .infility_tab_title{flex-direction: column;}
+
+
+/*内容*/
+.infility_tab .infility_tab_content{position: relative;}
+
+.infility_tab .infility_tab_content.effect_none .title_items_content{display: none;}
+.infility_tab .infility_tab_content.effect_none .title_items_content.load{display: block;margin: 0 !important;padding: 0 !important;}
+.infility_tab .infility_tab_content.effect_none .title_items_content.load .height_box{height: 0;overflow: hidden;}
+.infility_tab .infility_tab_content.effect_none .title_items_content.cur{display: block;}
+.infility_tab .infility_tab_content.effect_none .title_items_content.cur .height_box{height: auto;overflow: hidden;}
+
+.infility_tab .infility_tab_content.effect_fade .title_items_content{display: none;}
+.infility_tab .infility_tab_content.effect_fade .title_items_content.load{display: block;margin: 0 !important;padding: 0 !important;}
+.infility_tab .infility_tab_content.effect_fade .title_items_content.load .height_box{height: 0;overflow: hidden;}
+.infility_tab .infility_tab_content.effect_fade .title_items_content.cur{display: block;}
+.infility_tab .infility_tab_content.effect_fade .title_items_content.cur .height_box{height: auto;overflow: hidden;}
+
+.elementor-edit-area-active .infility_tab .infility_tab_content .title_items_content.load{display: none;}
+
+
+.infility_tab .infility_tab_content.effect_fade.effect_slide{overflow: hidden;}
+.infility_tab .infility_tab_content.effect_slide .slide_box{width: 100000%;clear: both}
+.infility_tab .infility_tab_content.effect_slide .title_items_content{float: left;box-sizing:border-box;}
+.infility_tab .infility_tab_content.effect_slide .title_items_content.cur{}
+
+

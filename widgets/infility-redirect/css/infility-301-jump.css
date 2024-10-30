@@ -1,0 +1,22 @@
+/*
+CF7 - 控件
+@author CJJ
+ */
+
+.wpcf7[id^=wpcf7] .flex{display: flex;flex-wrap: wrap;justify-content: space-between;}
+.wpcf7[id^=wpcf7] .flex p{width: 100%}
+.wpcf7[id^=wpcf7] .flex p .wpcf7-form-control{width: 100%;box-sizing:border-box;}
+.wpcf7[id^=wpcf7] .flex p.w10{width: 9%}
+.wpcf7[id^=wpcf7] .flex p.w20{width: 19%}
+.wpcf7[id^=wpcf7] .flex p.w25{width: 24%}
+.wpcf7[id^=wpcf7] .flex p.w30{width: 29%}
+.wpcf7[id^=wpcf7] .flex p.w33{width: 33%}
+.wpcf7[id^=wpcf7] .flex p.w40{width: 39%}
+.wpcf7[id^=wpcf7] .flex p.w50{width: 49%}
+.wpcf7[id^=wpcf7] .flex p.w60{width: 59%}
+.wpcf7[id^=wpcf7] .flex p.w70{width: 69%}
+.wpcf7[id^=wpcf7] .flex p.w75{width: 74%}
+.wpcf7[id^=wpcf7] .flex p.w80{width: 79%}
+.wpcf7[id^=wpcf7] .flex p.w90{width: 89%}
+
+.wpcf7 .wpcf7-form-control-wrap{margin-top: 5px;}

@@ -1,0 +1,10 @@
+/*
+CF7 - 控件
+@author CJJ
+ */
+
+.add_textarea{width: 100%;height: 200px;resize:none;}
+
+.tablenav.top .domain_str{float: left;margin: 5px 0}
+
+#redirectList tr:hover td{background: #ededed;}
